@@ -40,9 +40,7 @@ noinst_PROGRAMS = \
 	obt/obt_unittests
 
 nodist_bin_SCRIPTS = \
-	data/xsession/openbox-session \
-	data/xsession/openbox-gnome-session \
-	data/xsession/openbox-kde-session
+	data/xsession/openbox-session 
 
 dist_rc_SCRIPTS = \
 	data/environment
@@ -374,86 +372,6 @@ dist_docxbm_DATA = \
         data/xbm/shade_toggled.xbm \
         data/xbm/shade.xbm
 
-
-## themes ##
-
-clearlooks_themedir = $(themedir)/Clearlooks/openbox-3
-dist_clearlooks_theme_DATA= \
-	themes/Clearlooks/openbox-3/themerc
-
-clearlooks34_themedir = $(themedir)/Clearlooks-3.4/openbox-3
-dist_clearlooks34_theme_DATA= \
-	themes/Clearlooks-3.4/openbox-3/themerc
-
-clearlooksolive_themedir = $(themedir)/Clearlooks-Olive/openbox-3
-dist_clearlooksolive_theme_DATA= \
-	themes/Clearlooks-Olive/openbox-3/themerc
-
-mikachu_themedir = $(themedir)/Mikachu/openbox-3
-dist_mikachu_theme_DATA= \
-	themes/Mikachu/openbox-3/bullet.xbm \
-	themes/Mikachu/openbox-3/close.xbm \
-	themes/Mikachu/openbox-3/desk.xbm \
-	themes/Mikachu/openbox-3/iconify.xbm \
-	themes/Mikachu/openbox-3/max.xbm \
-	themes/Mikachu/openbox-3/themerc
-
-
-natura_themedir = $(themedir)/Natura/openbox-3
-dist_natura_theme_DATA= \
-	themes/Natura/openbox-3/close_hover.xbm \
-	themes/Natura/openbox-3/close.xbm \
-	themes/Natura/openbox-3/desk_toggled.xbm \
-	themes/Natura/openbox-3/desk_hover.xbm \
-	themes/Natura/openbox-3/desk.xbm \
-	themes/Natura/openbox-3/iconify_hover.xbm \
-	themes/Natura/openbox-3/iconify.xbm \
-	themes/Natura/openbox-3/max_hover.xbm \
-	themes/Natura/openbox-3/max_toggled.xbm \
-	themes/Natura/openbox-3/max.xbm \
-	themes/Natura/openbox-3/shade.xbm \
-	themes/Natura/openbox-3/shade_hover.xbm \
-	themes/Natura/openbox-3/themerc
-
-artwizboxed_themedir = $(themedir)/Artwiz-boxed/openbox-3
-dist_artwizboxed_theme_DATA= \
-	themes/Artwiz-boxed/openbox-3/themerc
-
-bear2_themedir = $(themedir)/Bear2/openbox-3
-dist_bear2_theme_DATA= \
-	themes/Bear2/openbox-3/close_pressed.xbm \
-	themes/Bear2/openbox-3/close.xbm \
-	themes/Bear2/openbox-3/desk_toggled.xbm \
-	themes/Bear2/openbox-3/desk.xbm \
-	themes/Bear2/openbox-3/iconify_pressed.xbm \
-	themes/Bear2/openbox-3/iconify.xbm \
-	themes/Bear2/openbox-3/max_pressed.xbm \
-	themes/Bear2/openbox-3/max_toggled.xbm \
-	themes/Bear2/openbox-3/max.xbm \
-	themes/Bear2/openbox-3/shade_pressed.xbm \
-	themes/Bear2/openbox-3/shade.xbm \
-	themes/Bear2/openbox-3/themerc
-
-orang_themedir = $(themedir)/Orang/openbox-3
-dist_orang_theme_DATA= \
-	themes/Orang/openbox-3/themerc
-
-onyx_themedir = $(themedir)/Onyx/openbox-3
-dist_onyx_theme_DATA= \
-	themes/Onyx/openbox-3/themerc
-
-onyxcitrus_themedir = $(themedir)/Onyx-Citrus/openbox-3
-dist_onyxcitrus_theme_DATA= \
-	themes/Onyx-Citrus/openbox-3/themerc
-
-syscrash_themedir = $(themedir)/Syscrash/openbox-3
-dist_syscrash_theme_DATA= \
-	themes/Syscrash/openbox-3/max_disabled.xbm \
-	themes/Syscrash/openbox-3/max_pressed.xbm \
-	themes/Syscrash/openbox-3/max_toggled.xbm \
-	themes/Syscrash/openbox-3/max.xbm \
-	themes/Syscrash/openbox-3/themerc
-
 ## public headers ##
 
 rrpubinclude_HEADERS = \
@@ -535,9 +453,7 @@ dist_gnomewmfiles_DATA = \
 	data/gnome-wm-properties/openbox.desktop
 
 nodist_xsessions_DATA = \
-	data/xsession/openbox.desktop \
-	data/xsession/openbox-gnome.desktop \
-	data/xsession/openbox-kde.desktop
+	data/xsession/openbox.desktop 
 
 dist_gnomesession_DATA = \
 	data/gnome-session/openbox-gnome.session \
@@ -549,11 +465,7 @@ dist_noinst_DATA = \
 	data/autostart/autostart.in \
 	data/autostart/openbox-autostart.in \
 	data/xsession/openbox.desktop.in \
-	data/xsession/openbox-gnome.desktop.in \
-	data/xsession/openbox-kde.desktop.in \
 	data/xsession/openbox-session.in \
-	data/xsession/openbox-gnome-session.in \
-	data/xsession/openbox-kde-session.in \
 	doc/openbox.1.sgml \
 	doc/openbox.1.in \
 	doc/openbox-session.1.sgml \
