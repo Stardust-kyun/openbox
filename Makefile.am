@@ -372,6 +372,12 @@ dist_docxbm_DATA = \
         data/xbm/shade_toggled.xbm \
         data/xbm/shade.xbm
 
+## themes ##
+
+clearlooks_themedir = $(themedir)/Clearlooks/openbox-3
+dist_clearlooks_theme_DATA= \
+	themes/Clearlooks/openbox-3/themerc
+
 ## public headers ##
 
 rrpubinclude_HEADERS = \
